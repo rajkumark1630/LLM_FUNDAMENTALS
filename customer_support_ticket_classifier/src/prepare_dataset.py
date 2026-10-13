@@ -183,7 +183,7 @@ def generate_dataset():
                 )
 
                 records.append({
-                    "text": f"{message}. Reference: {ticket_id}",
+                    "text": f"{message}. Additional request details number {index:03d}",
                     "category": category,
                     "priority": priority,
                 })

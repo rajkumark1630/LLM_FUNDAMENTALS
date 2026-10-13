@@ -104,3 +104,44 @@ In Part 2, TF-IDF vectorization and Logistic Regression will be used to create b
 11. Limitations
 
 The dataset is synthetic and uses predefined text templates. Therefore, model performance on this dataset may not reflect performance on real-world customer support tickets.
+
+
+
+
+
+
+
+
+
+Task 2: TF-IDF + Logistic Regression Baseline
+Approach
+
+Two separate text classification models were developed:
+
+Category classification
+Priority classification
+
+Both models use a TF-IDF vectorizer and Logistic Regression pipeline. Hyperparameters were tuned using 5-fold stratified cross-validation with macro F1 as the scoring metric.
+
+Evaluation
+Target	Features	Validation Accuracy	Macro F1
+Category	Word TF-IDF	To be filled	To be filled
+Priority	Word TF-IDF	To be filled	To be filled
+Category	Word + Character TF-IDF	To be filled	To be filled
+Priority	Word + Character TF-IDF	To be filled	To be filled
+Hyperparameter Tuning
+Word n-gram range: (1, 1) and (1, 2)
+Logistic Regression C: 0.1, 1.0, and 10.0
+Cross-validation: 5 folds
+Scoring metric: Macro F1
+Model Artifacts
+
+Trained pipelines are saved in the models/ directory using joblib. Evaluation metrics and confusion matrices are saved in reports/.
+
+Error Analysis
+
+The most confusing misclassified validation examples are recorded in reports/top_confusing_examples.csv when validation errors are present.
+
+Limitations
+
+The dataset is synthetic and uses predefined text templates. The evaluation results may not generalize to real-world customer support tickets.

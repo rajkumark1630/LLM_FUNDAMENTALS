@@ -1,0 +1,7 @@
+,Account,Billing,Delivery,General Inquiry,Refund,Technical
+Account,14,0,0,0,0,0
+Billing,0,15,0,0,0,0
+Delivery,0,0,15,0,0,0
+General Inquiry,0,0,0,15,0,0
+Refund,0,0,0,0,15,0
+Technical,0,0,0,0,0,15

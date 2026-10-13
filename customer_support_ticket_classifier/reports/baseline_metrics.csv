@@ -1,0 +1,5 @@
+target,features,cv_macro_f1,accuracy,macro_f1,best_params
+category,word,1.0,1.0,1.0,"{'clf__C': 1.0, 'tfidf__ngram_range': (1, 2)}"
+category,word_char,1.0,1.0,1.0,"{'clf__C': 0.1, 'features__word__ngram_range': (1, 2)}"
+priority,word,0.9904273504273504,1.0,1.0,"{'clf__C': 1.0, 'tfidf__ngram_range': (1, 2)}"
+priority,word_char,0.9904273504273504,1.0,1.0,"{'clf__C': 1.0, 'features__word__ngram_range': (1, 2)}"

@@ -1,0 +1,90 @@
+text,category,priority
+the tracking page has not updated. reference: de-me-016,Delivery,Medium
+how can i track my order. reference: de-lo-010,Delivery,Low
+do you offer tutorials for new customers. reference: ge-lo-007,General Inquiry,Low
+where can i find the product documentation. reference: ge-lo-021,General Inquiry,Low
+what is your refund policy. reference: re-lo-005,Refund,Low
+please urgently clarify a service interruption notice. reference: ge-hi-002,General Inquiry,High
+the account settings page displays an error. reference: ac-me-028,Account,Medium
+i am unable to update my account details. reference: ac-me-014,Account,Medium
+i am unable to update my account details. reference: ac-me-024,Account,Medium
+how can i submit a refund request. reference: re-lo-009,Refund,Low
+my payment receipt shows incorrect details. reference: bi-me-024,Billing,Medium
+i received an incorrect payment confirmation. reference: bi-hi-004,Billing,High
+our business operations are affected by a service problem. reference: ge-hi-024,General Inquiry,High
+an unexpected payment was deducted. reference: bi-hi-006,Billing,High
+how can i change my profile language. reference: ac-lo-019,Account,Low
+i need help understanding the service terms. reference: ge-me-000,General Inquiry,Medium
+i need information about software features. reference: te-lo-012,Technical,Low
+how can i change my profile picture. reference: ac-lo-020,Account,Low
+when will my next invoice be generated. reference: bi-lo-018,Billing,Low
+how can i submit a refund request. reference: re-lo-014,Refund,Low
+i need immediate guidance about a serious service issue. reference: ge-hi-028,General Inquiry,High
+my package was delivered to the wrong address. reference: de-me-032,Delivery,Medium
+how can i update my billing address. reference: bi-lo-006,Billing,Low
+my approved refund has not arrived. reference: re-hi-025,Refund,High
+my payment receipt shows incorrect details. reference: bi-me-019,Billing,Medium
+can i change my preferred delivery date. reference: de-lo-002,Delivery,Low
+the website is completely unavailable. reference: te-hi-016,Technical,High
+can you explain refund eligibility requirements. reference: re-lo-016,Refund,Low
+my important shipment cannot be located. reference: de-hi-004,Delivery,High
+i received an incorrect payment confirmation. reference: bi-hi-009,Billing,High
+my delivery is missing despite being marked delivered. reference: de-hi-032,Delivery,High
+my order is delayed beyond the expected date. reference: de-me-025,Delivery,Medium
+how do i view my subscription charges. reference: bi-lo-009,Billing,Low
+my order has not moved from the sorting facility. reference: de-me-024,Delivery,Medium
+i need immediate help with a lost shipment. reference: de-hi-023,Delivery,High
+i want to update my display name. reference: ac-lo-006,Account,Low
+my refund request is still being processed. reference: re-me-029,Refund,Medium
+how do i update my delivery preferences. reference: de-lo-029,Delivery,Low
+i would like to request a refund. reference: re-me-025,Refund,Medium
+the account settings page displays an error. reference: ac-me-013,Account,Medium
+my account appears to be compromised. reference: ac-hi-005,Account,High
+please urgently clarify a service interruption notice. reference: ge-hi-032,General Inquiry,High
+how can i change my profile language. reference: ac-lo-014,Account,Low
+the application displays a critical error. reference: te-hi-029,Technical,High
+i cannot download my billing statement. reference: bi-me-006,Billing,Medium
+the dashboard displays an unexpected error. reference: te-me-029,Technical,Medium
+i urgently need help with my refund request. reference: re-hi-017,Refund,High
+i need urgent help with an incorrect charge. reference: bi-hi-008,Billing,High
+some buttons are not responding. reference: te-me-008,Technical,Medium
+my delivery is missing despite being marked delivered. reference: de-hi-002,Delivery,High
+please explain how to use the dashboard. reference: te-lo-016,Technical,Low
+i need information about software features. reference: te-lo-022,Technical,Low
+how do i view my subscription charges. reference: bi-lo-019,Billing,Low
+what are your business hours. reference: ge-lo-020,General Inquiry,Low
+my invoice contains an incorrect amount. reference: bi-me-000,Billing,Medium
+i need assistance understanding a service policy. reference: ge-me-019,General Inquiry,Medium
+what is your refund policy. reference: re-lo-000,Refund,Low
+i was incorrectly denied a refund for a cancelled order. reference: re-hi-006,Refund,High
+my payment failed but money was deducted. reference: bi-hi-032,Billing,High
+i have a question about the available services. reference: ge-me-017,General Inquiry,Medium
+my returned item was received but the refund is missing. reference: re-hi-003,Refund,High
+how can i customize my application settings. reference: te-lo-003,Technical,Low
+our team cannot access critical support documentation. reference: ge-hi-001,General Inquiry,High
+where can i find the user guide. reference: te-lo-004,Technical,Low
+i am locked out of my account. reference: ac-hi-011,Account,High
+what are the standard delivery times. reference: de-lo-031,Delivery,Low
+i cannot reset my password. reference: ac-me-015,Account,Medium
+i would like to request a refund. reference: re-me-020,Refund,Medium
+i need assistance understanding a service policy. reference: ge-me-029,General Inquiry,Medium
+i cannot access an important application feature. reference: te-hi-028,Technical,High
+what are your business hours. reference: ge-lo-005,General Inquiry,Low
+my package has not arrived and tracking shows an exception. reference: de-hi-026,Delivery,High
+i have a question about the available services. reference: ge-me-027,General Inquiry,Medium
+how can i update my billing address. reference: bi-lo-016,Billing,Low
+my order is delayed beyond the expected date. reference: de-me-000,Delivery,Medium
+where can i find the product documentation. reference: ge-lo-031,General Inquiry,Low
+how can i track my order. reference: de-lo-030,Delivery,Low
+i cannot upload a document. reference: te-me-001,Technical,Medium
+where can i manage notification preferences. reference: ac-lo-007,Account,Low
+the application loads very slowly. reference: te-me-025,Technical,Medium
+i would like to request a refund. reference: re-me-030,Refund,Medium
+my refund status has not changed. reference: re-me-022,Refund,Medium
+my account appears to be compromised. reference: ac-hi-000,Account,High
+i cannot access an important application feature. reference: te-hi-013,Technical,High
+the application loads very slowly. reference: te-me-020,Technical,Medium
+please explain the charges on my invoice. reference: bi-me-022,Billing,Medium
+my account appears to be compromised. reference: ac-hi-030,Account,High
+an incorrect amount was refunded to my account. reference: re-hi-029,Refund,High
+the system fails during checkout. reference: te-hi-027,Technical,High

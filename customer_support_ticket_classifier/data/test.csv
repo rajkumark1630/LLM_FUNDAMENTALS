@@ -1,91 +1,91 @@
 text,category,priority
-can you explain refund eligibility requirements. reference: re-lo-021,Refund,Low
-what is your refund policy. reference: re-lo-010,Refund,Low
-the dashboard displays an unexpected error. reference: te-me-009,Technical,Medium
-how do i add an alternative email address. reference: ac-lo-008,Account,Low
-what payment methods are available. reference: bi-lo-012,Billing,Low
-i cannot verify my email address. reference: ac-me-022,Account,Medium
-what are your business hours. reference: ge-lo-000,General Inquiry,Low
-i urgently need help with my refund request. reference: re-hi-012,Refund,High
-i cannot reset my password. reference: ac-me-020,Account,Medium
-how can i track my order. reference: de-lo-015,Delivery,Low
-the tracking page has not updated. reference: de-me-001,Delivery,Medium
-i need immediate help with a lost shipment. reference: de-hi-028,Delivery,High
-i returned an item and need a refund update. reference: re-me-008,Refund,Medium
-some buttons are not responding. reference: te-me-018,Technical,Medium
-i cannot verify my email address. reference: ac-me-032,Account,Medium
-my returned item was received but the refund is missing. reference: re-hi-023,Refund,High
-where can i find the user guide. reference: te-lo-019,Technical,Low
-where can i find the user guide. reference: te-lo-029,Technical,Low
-my invoice contains an incorrect amount. reference: bi-me-010,Billing,Medium
-i want to update my display name. reference: ac-lo-001,Account,Low
-how can i customize my application settings. reference: te-lo-023,Technical,Low
-i have a question about the available services. reference: ge-me-002,General Inquiry,Medium
-our team cannot access critical support documentation. reference: ge-hi-031,General Inquiry,High
-how do i change the application theme. reference: te-lo-015,Technical,Low
-our team cannot access critical support documentation. reference: ge-hi-021,General Inquiry,High
-how can i contact customer support. reference: ge-lo-029,General Inquiry,Low
-i have a question about the available services. reference: ge-me-022,General Inquiry,Medium
-the website is completely unavailable. reference: te-hi-031,Technical,High
-an incorrect amount was refunded to my account. reference: re-hi-024,Refund,High
-my invoice contains an incorrect amount. reference: bi-me-025,Billing,Medium
-my package was delivered to the wrong address. reference: de-me-027,Delivery,Medium
-someone changed my account recovery information. reference: ac-hi-032,Account,High
-i urgently need help with my refund request. reference: re-hi-032,Refund,High
-my invoice contains an incorrect amount. reference: bi-me-030,Billing,Medium
-i need immediate guidance about a serious service issue. reference: ge-hi-013,General Inquiry,High
-my order is delayed beyond the expected date. reference: de-me-030,Delivery,Medium
-i need help understanding the service terms. reference: ge-me-020,General Inquiry,Medium
-my package has not arrived and tracking shows an exception. reference: de-hi-016,Delivery,High
-where can i find my tracking number. reference: de-lo-008,Delivery,Low
-i cannot download my billing statement. reference: bi-me-031,Billing,Medium
-i need general information about your services. reference: ge-lo-018,General Inquiry,Low
-my order is delayed beyond the expected date. reference: de-me-015,Delivery,Medium
-how can i submit a refund request. reference: re-lo-019,Refund,Low
-please explain the charges on my invoice. reference: bi-me-027,Billing,Medium
-please urgently clarify a service interruption notice. reference: ge-hi-017,General Inquiry,High
-when will my next invoice be generated. reference: bi-lo-003,Billing,Low
-please explain how to use the dashboard. reference: te-lo-001,Technical,Low
-where can i find the product documentation. reference: ge-lo-001,General Inquiry,Low
-i need help understanding the service terms. reference: ge-me-030,General Inquiry,Medium
-an unexpected payment was deducted. reference: bi-hi-026,Billing,High
-the website is completely unavailable. reference: te-hi-011,Technical,High
-how can i change my profile picture. reference: ac-lo-025,Account,Low
-where can i manage notification preferences. reference: ac-lo-027,Account,Low
-the application displays a critical error. reference: te-hi-004,Technical,High
-the application displays a critical error. reference: te-hi-019,Technical,High
-how do i view my subscription charges. reference: bi-lo-004,Billing,Low
-i cannot reset my password. reference: ac-me-030,Account,Medium
-some buttons are not responding. reference: te-me-003,Technical,Medium
-i cannot access my account after a security alert. reference: ac-hi-023,Account,High
-how long does the refund process take. reference: re-me-011,Refund,Medium
-how long does the refund process take. reference: re-me-031,Refund,Medium
-my order has not moved from the sorting facility. reference: de-me-019,Delivery,Medium
-i urgently need help with my refund request. reference: re-hi-002,Refund,High
-the search feature is not working correctly. reference: te-me-017,Technical,Medium
-my important shipment cannot be located. reference: de-hi-024,Delivery,High
-my refund status has not changed. reference: re-me-027,Refund,Medium
-how can i submit a refund request. reference: re-lo-004,Refund,Low
-i was charged twice for my subscription. reference: bi-hi-025,Billing,High
-what payment methods are available. reference: bi-lo-027,Billing,Low
-what are the standard delivery times. reference: de-lo-026,Delivery,Low
-how can i track my order. reference: de-lo-000,Delivery,Low
-my refund request is still being processed. reference: re-me-004,Refund,Medium
-the application displays a critical error. reference: te-hi-014,Technical,High
-my package has not arrived and tracking shows an exception. reference: de-hi-001,Delivery,High
-do you offer tutorials for new customers. reference: ge-lo-012,General Inquiry,Low
-where can i find my previous invoices. reference: bi-lo-025,Billing,Low
-my payment failed but money was deducted. reference: bi-hi-007,Billing,High
-my account access was blocked unexpectedly. reference: ac-hi-029,Account,High
-i cannot upload a document. reference: te-me-006,Technical,Medium
-i need urgent help with an incorrect charge. reference: bi-hi-028,Billing,High
-i want to update my display name. reference: ac-lo-011,Account,Low
-my urgent order appears to be lost. reference: de-hi-030,Delivery,High
-how can i track my order. reference: de-lo-005,Delivery,Low
-where can i view my refund history. reference: re-lo-032,Refund,Low
-i cannot verify my email address. reference: ac-me-007,Account,Medium
-our business operations are affected by a service problem. reference: ge-hi-029,General Inquiry,High
-my account appears to be compromised. reference: ac-hi-020,Account,High
-i am locked out of my account. reference: ac-hi-001,Account,High
-can you explain how your subscription plans work. reference: ge-me-031,General Inquiry,Medium
-an unexpected payment was deducted. reference: bi-hi-031,Billing,High
+can you explain refund eligibility requirements. additional request details number 021,Refund,Low
+what is your refund policy. additional request details number 010,Refund,Low
+the dashboard displays an unexpected error. additional request details number 009,Technical,Medium
+how do i add an alternative email address. additional request details number 008,Account,Low
+what payment methods are available. additional request details number 012,Billing,Low
+i cannot verify my email address. additional request details number 022,Account,Medium
+what are your business hours. additional request details number 000,General Inquiry,Low
+i urgently need help with my refund request. additional request details number 012,Refund,High
+i cannot reset my password. additional request details number 020,Account,Medium
+how can i track my order. additional request details number 015,Delivery,Low
+the tracking page has not updated. additional request details number 001,Delivery,Medium
+i need immediate help with a lost shipment. additional request details number 028,Delivery,High
+i returned an item and need a refund update. additional request details number 008,Refund,Medium
+some buttons are not responding. additional request details number 018,Technical,Medium
+i cannot verify my email address. additional request details number 032,Account,Medium
+my returned item was received but the refund is missing. additional request details number 023,Refund,High
+where can i find the user guide. additional request details number 019,Technical,Low
+where can i find the user guide. additional request details number 029,Technical,Low
+my invoice contains an incorrect amount. additional request details number 010,Billing,Medium
+i want to update my display name. additional request details number 001,Account,Low
+how can i customize my application settings. additional request details number 023,Technical,Low
+i have a question about the available services. additional request details number 002,General Inquiry,Medium
+our team cannot access critical support documentation. additional request details number 031,General Inquiry,High
+how do i change the application theme. additional request details number 015,Technical,Low
+our team cannot access critical support documentation. additional request details number 021,General Inquiry,High
+how can i contact customer support. additional request details number 029,General Inquiry,Low
+i have a question about the available services. additional request details number 022,General Inquiry,Medium
+the website is completely unavailable. additional request details number 031,Technical,High
+an incorrect amount was refunded to my account. additional request details number 024,Refund,High
+my invoice contains an incorrect amount. additional request details number 025,Billing,Medium
+my package was delivered to the wrong address. additional request details number 027,Delivery,Medium
+someone changed my account recovery information. additional request details number 032,Account,High
+i urgently need help with my refund request. additional request details number 032,Refund,High
+my invoice contains an incorrect amount. additional request details number 030,Billing,Medium
+i need immediate guidance about a serious service issue. additional request details number 013,General Inquiry,High
+my order is delayed beyond the expected date. additional request details number 030,Delivery,Medium
+i need help understanding the service terms. additional request details number 020,General Inquiry,Medium
+my package has not arrived and tracking shows an exception. additional request details number 016,Delivery,High
+where can i find my tracking number. additional request details number 008,Delivery,Low
+i cannot download my billing statement. additional request details number 031,Billing,Medium
+i need general information about your services. additional request details number 018,General Inquiry,Low
+my order is delayed beyond the expected date. additional request details number 015,Delivery,Medium
+how can i submit a refund request. additional request details number 019,Refund,Low
+please explain the charges on my invoice. additional request details number 027,Billing,Medium
+please urgently clarify a service interruption notice. additional request details number 017,General Inquiry,High
+when will my next invoice be generated. additional request details number 003,Billing,Low
+please explain how to use the dashboard. additional request details number 001,Technical,Low
+where can i find the product documentation. additional request details number 001,General Inquiry,Low
+i need help understanding the service terms. additional request details number 030,General Inquiry,Medium
+an unexpected payment was deducted. additional request details number 026,Billing,High
+the website is completely unavailable. additional request details number 011,Technical,High
+how can i change my profile picture. additional request details number 025,Account,Low
+where can i manage notification preferences. additional request details number 027,Account,Low
+the application displays a critical error. additional request details number 004,Technical,High
+the application displays a critical error. additional request details number 019,Technical,High
+how do i view my subscription charges. additional request details number 004,Billing,Low
+i cannot reset my password. additional request details number 030,Account,Medium
+some buttons are not responding. additional request details number 003,Technical,Medium
+i cannot access my account after a security alert. additional request details number 023,Account,High
+how long does the refund process take. additional request details number 011,Refund,Medium
+how long does the refund process take. additional request details number 031,Refund,Medium
+my order has not moved from the sorting facility. additional request details number 019,Delivery,Medium
+i urgently need help with my refund request. additional request details number 002,Refund,High
+the search feature is not working correctly. additional request details number 017,Technical,Medium
+my important shipment cannot be located. additional request details number 024,Delivery,High
+my refund status has not changed. additional request details number 027,Refund,Medium
+how can i submit a refund request. additional request details number 004,Refund,Low
+i was charged twice for my subscription. additional request details number 025,Billing,High
+what payment methods are available. additional request details number 027,Billing,Low
+what are the standard delivery times. additional request details number 026,Delivery,Low
+how can i track my order. additional request details number 000,Delivery,Low
+my refund request is still being processed. additional request details number 004,Refund,Medium
+the application displays a critical error. additional request details number 014,Technical,High
+my package has not arrived and tracking shows an exception. additional request details number 001,Delivery,High
+do you offer tutorials for new customers. additional request details number 012,General Inquiry,Low
+where can i find my previous invoices. additional request details number 025,Billing,Low
+my payment failed but money was deducted. additional request details number 007,Billing,High
+my account access was blocked unexpectedly. additional request details number 029,Account,High
+i cannot upload a document. additional request details number 006,Technical,Medium
+i need urgent help with an incorrect charge. additional request details number 028,Billing,High
+i want to update my display name. additional request details number 011,Account,Low
+my urgent order appears to be lost. additional request details number 030,Delivery,High
+how can i track my order. additional request details number 005,Delivery,Low
+where can i view my refund history. additional request details number 032,Refund,Low
+i cannot verify my email address. additional request details number 007,Account,Medium
+our business operations are affected by a service problem. additional request details number 029,General Inquiry,High
+my account appears to be compromised. additional request details number 020,Account,High
+i am locked out of my account. additional request details number 001,Account,High
+can you explain how your subscription plans work. additional request details number 031,General Inquiry,Medium
+an unexpected payment was deducted. additional request details number 031,Billing,High

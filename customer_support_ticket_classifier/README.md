@@ -145,3 +145,31 @@ The most confusing misclassified validation examples are recorded in reports/top
 Limitations
 
 The dataset is synthetic and uses predefined text templates. The evaluation results may not generalize to real-world customer support tickets.
+
+
+Model Selection and Justification
+DistilBERT achieved 98.89% test accuracy and approximately 0.989 macro F1 for both category and priority classification on our synthetic dataset.
+Its validation accuracy reached 100%, but this result should be interpreted cautiously because the dataset contains repeated ticket templates.
+DistilBERT provides contextual text representations but requires more memory and computational resources than a TF-IDF and Logistic Regression baseline.
+The TF-IDF baseline may be preferable for lightweight deployment if its predictive performance is sufficiently close to DistilBERT.
+The final deployment choice will be based on validation and test metrics, inference latency, training cost, and resource requirements.
+
+
+
+
+Model Comparison and Selection
+Results
+
+The TF-IDF + Logistic Regression baseline achieved 100% accuracy and macro F1 for both category and priority classification in the recorded evaluation results. Word-level unigrams and bigrams were selected through cross-validation. Adding character n-gram features did not improve the reported metrics.
+
+DistilBERT achieved 98.89% test accuracy and approximately 0.989 macro F1 for both classification tasks. Category training took approximately 142.41 seconds, while priority training took approximately 138.15 seconds. Measured inference latency was approximately 17.29 ms and 15.88 ms per ticket, respectively.
+
+Five-line Model Selection Justification
+TF-IDF + Logistic Regression achieved the strongest recorded predictive metrics on our synthetic dataset.
+DistilBERT achieved 98.89% test accuracy and approximately 0.989 macro F1 for both tasks.
+The TF-IDF baseline is likely the more cost-effective deployment option because it is lightweight and requires fewer computational resources.
+DistilBERT offers contextual language representations but has higher memory and computational requirements.
+We select TF-IDF + Logistic Regression for initial deployment, subject to verifying test-set metrics and evaluating performance on diverse real-world tickets.
+Limitations
+
+The dataset contains synthetic ticket templates and repeated linguistic patterns. Consequently, the high scores may overestimate performance on unseen real-world customer messages. Further evaluation on independent, real support tickets is recommended.

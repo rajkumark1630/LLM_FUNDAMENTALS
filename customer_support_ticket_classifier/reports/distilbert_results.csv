@@ -1,0 +1,3 @@
+Model,Accuracy,Macro F1,Training time (seconds),Inference time per ticket (ms),Validation accuracy,Validation macro F1
+DistilBERT (category),0.9888888888888889,0.988876529477197,142.40935430000536,17.28935222037964,1.0,1.0
+DistilBERT (priority),0.9888888888888889,0.9888858016115588,138.14603920001537,15.883337778763638,1.0,1.0

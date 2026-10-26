@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "ticket": "I was charged twice for my subscription.",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "id": 2,
+    "ticket": "Please send my monthly invoice.",
+    "category": "Billing",
+    "priority": "Low"
+  },
+  {
+    "id": 3,
+    "ticket": "My refund has not arrived after two weeks.",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "id": 4,
+    "ticket": "My discount code was not applied.",
+    "category": "Billing",
+    "priority": "Medium"
+  },
+  {
+    "id": 5,
+    "ticket": "When is my next payment due?",
+    "category": "Billing",
+    "priority": "Low"
+  },
+  {
+    "id": 6,
+    "ticket": "The application crashes when I open it.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "id": 7,
+    "ticket": "The dashboard loads very slowly.",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "id": 8,
+    "ticket": "I get an error while uploading a PDF.",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "id": 9,
+    "ticket": "The website is completely unavailable.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "id": 10,
+    "ticket": "How do I export a report to CSV?",
+    "category": "Technical",
+    "priority": "Low"
+  },
+  {
+    "id": 11,
+    "ticket": "I cannot log in after resetting my password.",
+    "category": "Account",
+    "priority": "High"
+  },
+  {
+    "id": 12,
+    "ticket": "Please change my account email address.",
+    "category": "Account",
+    "priority": "Medium"
+  },
+  {
+    "id": 13,
+    "ticket": "I want to permanently delete my account.",
+    "category": "Account",
+    "priority": "Medium"
+  },
+  {
+    "id": 14,
+    "ticket": "I forgot my username. How can I recover it?",
+    "category": "Account",
+    "priority": "Low"
+  },
+  {
+    "id": 15,
+    "ticket": "Someone accessed my account without permission.",
+    "category": "Account",
+    "priority": "High"
+  }
+]

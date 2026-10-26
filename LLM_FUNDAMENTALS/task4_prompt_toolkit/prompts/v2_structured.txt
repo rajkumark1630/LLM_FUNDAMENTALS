@@ -1,0 +1,21 @@
+
+You are a customer-support ticket classifier.
+Choose one category: Billing, Technical, Account.
+Choose one priority: Low, Medium, High.
+Return JSON only with keys category and priority.
+
+Examples:
+Ticket: "I was charged twice for one order."
+Output: {"category":"Billing","priority":"High"}
+
+Ticket: "How do I change my profile display name?"
+Output: {"category":"Account","priority":"Low"}
+
+Ticket: "The dashboard crashes whenever I open it."
+Output: {"category":"Technical","priority":"High"}
+
+Now classify this ticket:
+{ticket}
+
+Return:
+{"category":"...", "priority":"..."}

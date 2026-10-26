@@ -1,0 +1,9 @@
+{
+  "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+  "api_used": false,
+  "total": 5,
+  "valid": 5,
+  "invalid": 0,
+  "exact_matches": 5,
+  "note": "Validates expected dataset only; does not measure Gemini extraction accuracy or JSON-mode performance."
+}

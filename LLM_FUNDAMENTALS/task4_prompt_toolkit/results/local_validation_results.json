@@ -1,0 +1,11 @@
+{
+  "mode": "LOCAL_ONLY",
+  "gemini_api_called": false,
+  "tickets_loaded": 15,
+  "ticket_errors": [],
+  "resumes_loaded": 5,
+  "valid_expected_resumes": 5,
+  "resume_errors": [],
+  "json_parser": "PASS",
+  "pydantic": "PASS"
+}

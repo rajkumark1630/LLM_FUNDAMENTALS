@@ -1,0 +1,17 @@
+{
+  "mode": "LOCAL_ONLY",
+  "api_used": false,
+  "total_tickets": 15,
+  "valid_tickets": 15,
+  "errors": [],
+  "category_distribution": {
+    "Billing": 5,
+    "Technical": 5,
+    "Account": 5
+  },
+  "priority_distribution": {
+    "High": 6,
+    "Low": 4,
+    "Medium": 5
+  }
+}

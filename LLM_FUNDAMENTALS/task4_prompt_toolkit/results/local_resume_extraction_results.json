@@ -1,0 +1,80 @@
+[
+  {
+    "resume_id": 1,
+    "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+    "valid_json_schema": true,
+    "exact_match": true,
+    "invalid": false,
+    "data": {
+      "name": "Anita Rao",
+      "skills": [
+        "Python",
+        "Django",
+        "SQL"
+      ],
+      "years_experience": 4
+    }
+  },
+  {
+    "resume_id": 2,
+    "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+    "valid_json_schema": true,
+    "exact_match": true,
+    "invalid": false,
+    "data": {
+      "name": "Rahul Kumar",
+      "skills": [
+        "Java",
+        "Spring Boot"
+      ],
+      "years_experience": 2
+    }
+  },
+  {
+    "resume_id": 3,
+    "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+    "valid_json_schema": true,
+    "exact_match": true,
+    "invalid": false,
+    "data": {
+      "name": "Meena Shah",
+      "skills": [
+        "Excel",
+        "SQL",
+        "Power BI"
+      ],
+      "years_experience": 5
+    }
+  },
+  {
+    "resume_id": 4,
+    "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+    "valid_json_schema": true,
+    "exact_match": true,
+    "invalid": false,
+    "data": {
+      "name": "Arun Das",
+      "skills": [
+        "JavaScript",
+        "React"
+      ],
+      "years_experience": 1
+    }
+  },
+  {
+    "resume_id": 5,
+    "mode": "LOCAL_EXPECTED_DATA_VALIDATION",
+    "valid_json_schema": true,
+    "exact_match": true,
+    "invalid": false,
+    "data": {
+      "name": "Priya Nair",
+      "skills": [
+        "Docker",
+        "AWS",
+        "Linux"
+      ],
+      "years_experience": 6
+    }
+  }
+]

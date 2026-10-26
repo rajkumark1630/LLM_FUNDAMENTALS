@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": 1,
+    "text": "Anita Rao has 4 years of experience in Python, Django, and SQL.",
+    "expected": {
+      "name": "Anita Rao",
+      "skills": ["Python", "Django", "SQL"],
+      "years_experience": 4
+    }
+  },
+  {
+    "id": 2,
+    "text": "Rahul Kumar has 2 years of experience in Java and Spring Boot.",
+    "expected": {
+      "name": "Rahul Kumar",
+      "skills": ["Java", "Spring Boot"],
+      "years_experience": 2
+    }
+  },
+  {
+    "id": 3,
+    "text": "Meena Shah has 5 years of experience in Excel, SQL, and Power BI.",
+    "expected": {
+      "name": "Meena Shah",
+      "skills": ["Excel", "SQL", "Power BI"],
+      "years_experience": 5
+    }
+  },
+  {
+    "id": 4,
+    "text": "Arun Das has 1 year of experience in JavaScript and React.",
+    "expected": {
+      "name": "Arun Das",
+      "skills": ["JavaScript", "React"],
+      "years_experience": 1
+    }
+  },
+  {
+    "id": 5,
+    "text": "Priya Nair has 6 years of experience in Docker, AWS, and Linux.",
+    "expected": {
+      "name": "Priya Nair",
+      "skills": ["Docker", "AWS", "Linux"],
+      "years_experience": 6
+    }
+  }
+]

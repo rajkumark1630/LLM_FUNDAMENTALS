@@ -1,0 +1,88 @@
+timestamp_utc,model,test,prompt,result,rating_1_to_5,verification_notes
+2026-10-26T05:43:30.699228+00:00,gemini-flash-latest,Summarisation,Summarise in two sentences: A company introduced a support chatbot. It answers common questions around the clock. Complex billing complaints are sent to human agents.,A company has introduced a 24/7 chatbot to handle common customer inquiries. More complex billing complaints are escalated to human agents.,,Rate factual accuracy and completeness from 1 to 5.
+2026-10-26T05:46:18.245483+00:00,gemini-flash-latest,Classification,"Classify this ticket as Billing, Technical, or Account. Ticket: I was charged twice for my subscription. Return only the category.",Billing,,Expected category: Billing.
+2026-10-26T05:48:04.433756+00:00,gemini-flash-latest,Extraction,"Extract name and years_experience as JSON: ""Priya has worked as a Python developer for 4 years."" Use {""name"": ""..."", ""years_experience"": 0}.","```json
+{
+  ""name"": ""Priya"",
+  ""years_experience"": 4
+}
+```",,Expected name Priya and 4 years.
+2026-10-26T05:48:44.436594+00:00,gemini-flash-latest,Translation,Translate into Tamil: 'Your account password has been reset successfully.',"Here is the translation in Tamil:
+
+**""உங்கள் கணக்கின் கடவுச்சொல் வெற்றிகரமாக மீட்டமைக்கப்பட்டுள்ளது.""**
+
+*(Transliteration: Ungal kanakkin kadavuchol vettrikaramaaga meetamaikkappattulladhu.)*",,"Retry after checking model, API access and quota."
+2026-10-26T05:53:36.448372+00:00,gemini-flash-latest,Code generation,Write a Python function that returns the sum of a list of numbers. Include one test.,"Here is the Python function along with a test:
+
+```python
+def sum_numbers(numbers: list[int | float]) -> int | float:
+    """"""Returns the sum of a list of numbers.""""""
+    return sum(numbers)
+
+
+# Test
+def test_sum_numbers():
+    assert sum_numbers([1, 2, 3, 4, 5]) == 15
+    print(""Test passed!"")
+
+
+if __name__ == ""__main__"":
+    test_sum_numbers()
+```",,Review and run generated code.
+2026-10-26T05:53:40.849007+00:00,gemini-flash-latest,Knowledge cutoff,"What major event happened in the world yesterday? Give the date and a source. If uncertain, say so.","I am uncertain, as I do not have access to real-time information or today's current date, and therefore cannot tell you what happened yesterday. For the latest major global news, please check current news outlets such as Reuters, the Associated Press, or BBC News.",,"Retry after checking model, API access and quota."
+2026-10-26T05:58:30.701288+00:00,gemini-flash-latest,Hallucination baseline,"Summarise the findings of the fictional paper 'Quantum Clouds and Human Memory', supposedly written by Dr Alex Example in 2025. Do not assume it exists.","As requested, the following is a speculative summary of what the hypothetical 2025 paper **""Quantum Clouds and Human Memory""** by the fictional **Dr. Alex Example** would likely report, treating the premise entirely as a creative, speculative exercise.
+
+---
+
+### **Executive Summary: *Quantum Clouds and Human Memory* (2025)**
+**Author:** Dr. Alex Example  
+**Field:** Theoretical Quantum Neurobiology / Extended Cognition  
+
+#### **1. The Core Premise**
+The paper explores a radical intersection between macroscopic quantum phenomena and neurobiology. Dr. Example introduces the concept of **""ambient quantum clouds""**—micro-scale, transient networks of entangled atmospheric particles or distributed quantum information fields—and investigates whether human cognitive architecture, specifically memory consolidation and retrieval, interacts with these external states.
+
+---
+
+### **Key Hypothesized Findings**
+
+1. **Environmental Quantum Resonance with Microtubules**
+   * Building on extensions of the Penrose-Hameroff Orchestrated Objective Reduction (Orch-OR) theory, the paper proposes that neuronal microtubules do not act in complete isolation from the surrounding environment. 
+   * Example claims to have modeled weak, intermittent quantum coherence between polarized atmospheric particle clusters (""quantum clouds"") and cortical pyramidal neurons during high-load memory recall.
+
+2. **The ""Distributed Scaffolding"" Hypothesis of Memory**
+   * Rather than viewing long-term memory purely as localized neurochemical synaptic alterations (engrams), the paper suggests that human memory retrieval utilizes ambient environmental coherence as an external ""scaffolding.""
+   * According to Example’s models, this external coupling accounts for the rapid, non-linear retrieval of associative memories that classical computational models of the brain struggle to fully explain.
+
+3. **Decoherence Resistance via Topological Protection**
+   * Addressing the primary scientific objection—that biological systems are too ""warm, wet, and noisy"" to sustain quantum coherence—Example introduces the theoretical **""Example-Shielding Mechanism.""** 
+   * This mechanism posits that biological water matrices around synapses create a localized topological boundary layer, insulating short-lived quantum states just long enough (in the microsecond range) to interact with external atmospheric fluctuations.
+
+4. **Experimental Simulations**
+   * Using simulated data from hybrid optically pumped magnetometers (OPMs) and quantum optical detectors, the author reports a statistically significant correlation between localized ambient particle entanglements and anomalous theta-band synchronization during episodic memory tasks.
+
+---
+
+### **Significance and Criticisms (Simulated Context)**
+* **Significance:** If validated, the paper would suggest an extreme form of the **Extended Mind Thesis**, arguing that human cognitive processes are physically porous to ambient quantum physics.
+* **Skepticism:** Within the simulated academic community, the paper is treated as highly speculative. Critics highlight that the transition from micro-scale quantum mechanics to macro-scale atmospheric ""clouds"" interacting with living tissue lacks direct physical confirmation and borders on theoretical science fiction.",,Check whether the model invents paper details.
+2026-10-26T06:01:13.862532+00:00,gemini-flash-latest,Hallucination with safeguard,Is there a verified paper titled 'Quantum Clouds and Human Memory' by Dr Alex Example? Say 'I don't know' if you cannot verify it. Do not invent citations.,I don't know.,,Compare with the baseline response.
+2026-10-26T06:07:24.824897+00:00,gemini-flash-latest,Context retrieval,Read this text and report the secret reference code. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. This is ordinary filler text. The reference code is BLUE-4821. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. More ordinary filler text. Return only the reference code.,BLUE-4821,,Expected reference code: BLUE-4821.
+2026-10-26T06:13:44.589286+00:00,gemini-flash-latest,Arithmetic,A shop sells 3 notebooks for Rs 45 each and 2 pens for Rs 20 each. You pay Rs 200. How much change should you receive? Show the calculation.,"Here is the step-by-step calculation:
+
+1. **Calculate the cost of the notebooks:**
+   $$3 \text{ notebooks} \times \text{Rs } 45 = \text{Rs } 135$$
+
+2. **Calculate the cost of the pens:**
+   $$2 \text{ pens} \times \text{Rs } 20 = \text{Rs } 40$$
+
+3. **Calculate the total cost:**
+   $$\text{Rs } 135 + \text{Rs } 40 = \text{Rs } 175$$
+
+4. **Calculate the change received:**
+   $$\text{Rs } 200 - \text{Rs } 175 = \text{Rs } 25$$
+
+You should receive **Rs 25** in change.",,Verify manually: change should be Rs 25.
+2026-10-26T06:15:06.139398+00:00,gemini-flash-latest,Logic puzzle,All roses in a garden are flowers. Some flowers are red. Can we conclude that some roses are red? Explain briefly.,"**No**, we cannot conclude that some roses are red.
+
+**Explanation:** 
+While all roses are flowers, the ""some flowers"" that are red could easily be a different kind of flower entirely (such as red tulips or red carnations). It is possible that every rose in the garden is white or yellow, so there is no guaranteed overlap between roses and red flowers.",,"Correct answer: No, not from these premises alone."

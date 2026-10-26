@@ -1,0 +1,12 @@
+
+google-genai
+python-dotenv
+tiktoken
+pandas
+numpy
+matplotlib
+pydantic
+scikit-learn
+transformers
+torch
+pytest

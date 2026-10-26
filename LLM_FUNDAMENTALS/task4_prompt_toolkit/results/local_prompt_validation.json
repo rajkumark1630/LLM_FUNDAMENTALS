@@ -1,0 +1,20 @@
+[
+  {
+    "file": "v1_basic.txt",
+    "exists": true,
+    "contains_ticket_placeholder": true,
+    "characters": 611
+  },
+  {
+    "file": "v2_structured.txt",
+    "exists": true,
+    "contains_ticket_placeholder": true,
+    "characters": 578
+  },
+  {
+    "file": "v3_few_shot.txt",
+    "exists": true,
+    "contains_ticket_placeholder": true,
+    "characters": 956
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "bad": "Classify this ticket.",
+    "improved": "Classify as Billing, Technical, or Account. Assign Low, Medium, or High priority. Return JSON with category and priority. Use only ticket facts."
+  },
+  {
+    "bad": "Extract resume details.",
+    "improved": "Return JSON with name (string), skills (string array), and years_experience (integer >= 0). Use 0 if unstated."
+  },
+  {
+    "bad": "Reply nicely to the customer.",
+    "improved": "Write a professional support reply under 100 words. Use only supplied facts. Do not promise unconfirmed actions. Ask one clear question if information is missing."
+  }
+]
